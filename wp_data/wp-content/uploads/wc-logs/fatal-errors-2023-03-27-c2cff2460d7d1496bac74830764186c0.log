@@ -1,0 +1,154 @@
+2023-03-27T15:08:56+00:00 CRITICAL Uncaught RuntimeException: Không thể yêu cầu các hành động. Lỗi cơ sở dữ liệu. in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:864
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(778): ActionScheduler_DBStore->claim_actions(0, 25, NULL, Array, '')
+#1 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim(25)
+#2 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 /var/www/html/wp-includes/class-wp-hook.php(308): ActionScheduler_QueueRunner->run('WP Cron')
+#4 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-cron.php(188): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 864
+
+2023-03-27T15:23:37+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractInnerBlock.php on line 7
+
+2023-03-27T15:23:46+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartOrderSummaryShippingBlock.php on line 7
+
+2023-03-27T15:24:11+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 97
+
+2023-03-27T15:24:17+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/themes/flatsome/inc/admin/classes/class-status.php on line 301
+
+2023-03-27T15:27:38+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/stock-filter-frontend.asset.php on line 1
+
+2023-03-27T15:27:40+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-new.asset.php on line 1
+
+2023-03-27T15:27:47+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/blocks.php on line 345
+
+2023-03-27T15:28:16+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 73
+
+2023-03-27T15:28:17+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-top-rated.asset.php on line 1
+
+2023-03-27T15:28:23+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/catalog-sorting.asset.php on line 1
+
+2023-03-27T15:28:24+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CustomerAccount.php on line 10
+
+2023-03-27T15:28:38+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/blocks.php on line 324
+
+2023-03-27T15:28:43+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/blocks.php on line 324
+
+2023-03-27T15:28:46+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/themes/flatsome/inc/extensions/flatsome-wc-quick-view/flatsome-quick-view.php on line 18
+
+2023-03-27T15:28:51+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/blocks/navigation/view-modal.min.asset.php on line 1
+
+2023-03-27T15:28:53+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartAcceptedPaymentMethodsBlock.php on line 7
+
+2023-03-27T15:28:58+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/blocks.php on line 324
+
+2023-03-27T15:28:58+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/src/Internal/Admin/Onboarding/OnboardingThemes.php on line 228
+
+2023-03-27T15:30:29+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php on line 121
+
+2023-03-27T15:31:36+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/blocks.php on line 345
+
+2023-03-27T15:31:43+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/Cart.php on line 13
+
+2023-03-27T15:31:48+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/themes/flatsome/inc/classes/class-flatsome-envato-registration.php on line 8
+
+2023-03-27T15:32:07+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/AdditionalPayments.php on line 13
+
+2023-03-27T15:32:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/themes/flatsome/inc/admin/kirki/controls/php/class-kirki-control-editor.php on line 15
+
+2023-03-27T15:33:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/themes/flatsome/inc/admin/kirki/controls/php/class-kirki-control-select.php on line 13
+
+2023-03-27T15:33:54+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/l10n.php on line 761
+
+2023-03-27T15:33:56+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskList.php on line 15
+
+2023-03-27T15:33:57+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/blocks.php on line 324
+
+2023-03-27T15:33:57+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 97
+
+2023-03-27T15:34:21+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 97
+
+2023-03-27T15:34:25+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 97
+
+2023-03-27T15:34:25+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/blocks.php on line 345
+
+2023-03-27T15:35:56+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/assets/client/admin/explat/index.asset.php on line 1
+
+2023-03-27T15:36:59+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/functions.php on line 4527
+
+2023-03-27T15:39:27+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/l10n.php on line 1222
+
+2023-03-27T15:39:27+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 46
+
+2023-03-27T15:39:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/blocks.php on line 324
+
+2023-03-27T15:39:33+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 73
+
+2023-03-27T15:39:54+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/l10n.php on line 1222
+
+2023-03-27T15:40:00+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php on line 188
+
+2023-03-27T15:40:45+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/functions.php on line 4527
+
+2023-03-27T15:41:11+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/l10n.php on line 1226
+
+2023-03-27T15:46:01+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutOrderSummaryTaxesBlock.php on line 7
+
+2023-03-27T15:46:10+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 45
+
+2023-03-27T15:52:22+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php on line 188
+
+2023-03-27T15:52:35+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/l10n.php on line 761
+
+2023-03-27T15:52:43+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/class-wp-theme.php on line 1527
+
+2023-03-27T15:54:59+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php on line 97
+
+2023-03-27T15:55:37+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/Cart.php on line 13
+
+2023-03-27T15:58:55+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/class-wp-theme-json.php on line 818
+
+2023-03-27T15:59:15+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 73
+
+2023-03-27T15:59:22+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/blocks.php on line 225
+
+2023-03-27T15:59:25+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-admin/includes/class-wp-privacy-data-export-requests-list-table.php on line 10
+
+2023-03-27T15:59:29+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/themes/flatsome/inc/admin/kirki/field/class-kirki-field-radio.php on line 15
+
+2023-03-27T15:59:37+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/theme.php on line 2594
+
+2023-03-27T15:59:55+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 97
+
+2023-03-27T16:00:15+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/patterns/header-minimal.php on line 9
+
+2023-03-27T16:13:04+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/l10n.php on line 761
+
+2023-03-27T16:13:17+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/functions.php on line 4527
+
+2023-03-27T16:13:34+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/l10n.php on line 761
+
+2023-03-27T16:13:38+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/themes/flatsome/inc/admin/kirki/class-kirki-autoload.php on line 66
+
+2023-03-27T16:19:03+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 97
+
+2023-03-27T16:19:20+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/blocks.php on line 324
+
+2023-03-27T16:19:22+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/blocks.php on line 324
+
+2023-03-27T16:19:23+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php on line 14
+
+2023-03-27T16:19:26+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/pomo/entry.php on line 58
+
+2023-03-27T16:19:34+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/blocks.php on line 345
+
+2023-03-27T16:19:39+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/blocks.php on line 345
+
+2023-03-27T16:19:50+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 97
+
+2023-03-27T16:20:33+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/Api.php on line 73
+
+2023-03-27T16:21:18+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/themes/flatsome/inc/admin/kirki/controls/php/class-kirki-control-generic.php on line 13
+
