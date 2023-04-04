@@ -3,17 +3,17 @@
 /**
  * Add a custom product data tab
  */
+require_once( get_stylesheet_directory() . '/functions/security.php' );
+
 add_filter("woocommerce_product_tabs", "woo_new_product_tab");
 function woo_new_product_tab($tabs)
 {
     // Adds the new tab
-
     $tabs["test_tab"] = [
         "title" => __("Hướng Dẫn Mua Hàng", "woocommerce"),
         "priority" => 50,
         "callback" => "woo_new_product_tab_content",
     ];
-
     return $tabs;
 }
 function woo_new_product_tab_content()
@@ -87,3 +87,6 @@ function my_plugin_options_page()
 	</div>
 	<?php
 }
+
+// add_filter('wpcf7_autop_or_not', '__return_false');
+add_filter('wpcf7_autop_or_not', '__return_false');
