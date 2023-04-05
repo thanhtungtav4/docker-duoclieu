@@ -26,13 +26,13 @@
 	// !redirect your xmlrpc.php request to 404
 
 	// Disable /users rest routes
-		add_filter('rest_endpoints', function( $endpoints ) {
-			if ( isset( $endpoints['/wp/v2/users'] ) ) {
-					unset( $endpoints['/wp/v2/users'] );
-			}
-			if ( isset( $endpoints['/wp/v2/users/(?P<id>[\d]+)'] ) ) {
-					unset( $endpoints['/wp/v2/users/(?P<id>[\d]+)'] );
-			}
-			return $endpoints;
-		});
+	add_filter('rest_endpoints', function( $endpoints ) {
+		if ( isset( $endpoints['/wp/v2/users'] ) ) {
+				unset( $endpoints['/wp/v2/users'] );
+		}
+		if ( isset( $endpoints['/wp/v2/users/(?P<id>[\d]+)'] ) ) {
+				unset( $endpoints['/wp/v2/users/(?P<id>[\d]+)'] );
+		}
+		return $endpoints;
+	});
 	// !Disable /users rest routes
