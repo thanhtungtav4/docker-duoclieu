@@ -6,7 +6,35 @@ Template: flatsome
 Version: 3.0
 */
 /*************** ADD CUSTOM CSS HERE.   ***************/
-
+footer span.widget-title{
+  font-size: 130%;
+  color: black;
+  margin-bottom: 1.2rem;
+  display: block;
+  font-weight: bolder;
+}
+footer span.widget-title::before{
+  content: "";
+  display: block;
+  border-bottom: 3px solid #5d85c2;
+  border-radius: 10px;
+  position: relative;
+  top: 35px;
+  width: 15%;
+}
+footer #nav_menu-4.widget_nav_menu{
+  margin-left: 0;
+}
+footer .menu-item a, footer ul li {
+  font-weight: 500;
+  font-size: 100%;
+}
+#wide-nav ul li a, .header-vertical-menu__title{
+  font-weight: 600;
+}
+.header-vertical-menu__title{
+  text-transform: uppercase;
+}
 @media only screen and (max-width: 48em) {
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
 
